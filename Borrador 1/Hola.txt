@@ -1,5 +1,6 @@
 Hola
 
 Mi nombre es Giancarlo, tengo 27 años, soy nuevo en la carrera de programación y me fascina el mundo de la data.
+Soy economista y actualmente trabajo como analista en el Banco BCP en Perú.
 
 Saludos
