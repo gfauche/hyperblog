@@ -1,0 +1,5 @@
+Hola
+
+Mi nombre es Giancarlo, tengo 27 años, soy nuevo en la carrera de programación y me fascina el mundo de la data.
+
+Saludos
