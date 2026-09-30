@@ -1,0 +1,17 @@
+name: Revisión de cumplimiento
+# Secretos, archivos sensibles, fuentes sin registrar en FUENTES.md, licencias de terceros y descargas sin reglas.
+# Ver la sección "Cumplimiento legal" de CLAUDE.md.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python tools/revisar_cumplimiento.py

@@ -1,0 +1,14 @@
+# Configuración local y credenciales: nunca al repositorio (lo verifica tools/revisar_cumplimiento.py)
+.claude/settings.local.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Python
+__pycache__/
+*.pyc
